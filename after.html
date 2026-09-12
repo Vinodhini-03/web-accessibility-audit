@@ -8,7 +8,7 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: Arial, sans-serif; color: #333; }
 
-  /* FIX: replaced outline:none with a real visible focus style (WCAG 2.4.7 / 2.4.11) */
+  
   a:focus-visible, button:focus-visible, input:focus-visible {
     outline: 3px solid #1a73e8;
     outline-offset: 2px;
@@ -23,7 +23,7 @@
   header { background: #2b1d14; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; }
   header img { height: 32px; }
   nav ul { list-style: none; display: flex; gap: 20px; }
-  /* FIX: link color changed from #d8c9b8 to #f0e6da on dark bg for 4.5:1+ contrast (WCAG 1.4.3) */
+  
   nav a { color: #f0e6da; text-decoration: none; font-size: 14px; }
 
   .icon-btn { background: none; border: none; cursor: pointer; width: 36px; height: 36px; color: #fff; }
@@ -42,7 +42,7 @@
 
   main { max-width: 1000px; margin: 0 auto; padding: 32px 24px; }
 
-  /* FIX: real h2 used for section heading instead of h4 styled to look small (WCAG 1.3.1) */
+  
   h2.section-title { font-size: 22px; margin-bottom: 16px; color: #2b1d14; }
 
   .products { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 48px; }
